@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-003-graphql-playground",
+  "private": true,
+  "description": "A simple way using the graphql playground",
+  "version": "1.0.0",
+  "author": "Mustapha Benmbarek",
+  "dependencies": {
+    "gatsby": "^2.17.6",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "Mustapha Benmbarek",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
