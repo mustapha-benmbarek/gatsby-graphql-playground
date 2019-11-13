@@ -13,7 +13,7 @@ Gatsby is a blazing fast modern site generator for React. Gatsby is a free and o
 git clone https://github.com/mustapha-benmbarek/gatsby-003-graphql-playground
 cd gatsby-003-graphql-playground
 npm install 
-gatsby develop
+gatsby develop OR npm develop
 ```
 
 ### Support
